@@ -4,6 +4,6 @@ A quick csv parser rails app used to filter Liftsearch contacts for sms campaign
 
 contacts structures:
 
-* occ_{name} - Occasional drivers
-* reg_{name} - Regular drivers
-* c_{name} - Passengers
+* earlybirds_occ {name} - Occasional drivers
+* earlybirds_reg {name} - Regular drivers
+* earlybirds_c {name} - Passengers
