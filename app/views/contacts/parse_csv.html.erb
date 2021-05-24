@@ -1,0 +1,5 @@
+<h1>CSV Parser</h1>
+<%= simple_form_for(:contact, url: contacts_path, method: :post ) do |f| %>
+  <%= f.file_field :file %>
+  <%= f.submit "Save" %>   
+<% end %>
